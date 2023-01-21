@@ -1,25 +1,21 @@
-.idea
-target
-.classpath
-.project
-.settings
-.editorconfig
-build.properties
-bin
-.metadata
-transaction.log
-nbactions*.xml
-nb-configuration.xml
-/webapps/fox-platform-tasklist/server-work
-dependency-reduced-pom.xml
-faces-config.NavData
-*.iml
-*.sublime-project
-*.sublime-workspace
-*.h2.db
-*.lock.db
-**/overlays
-**/node_modules
-camunda-h2-dbs
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-*.DS_Store
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
